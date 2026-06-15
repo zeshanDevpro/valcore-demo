@@ -1,0 +1,830 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+    <meta name="description" content="Valcore Industries, Inc. - Building Better Business. Business Management & Construction Delegation Services." />
+    <meta name="keywords" content="construction, business management, delegation, valcore industries" />
+    <meta name="author" content="Valcore Industries, Inc." />
+    <title>Valcore Industries, Inc. – Building Better Business</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.png" />
+    <link rel="apple-touch-icon" href="./images/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen" />
+    <link href="css/slicknav.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link href="css/all.min.css" rel="stylesheet" media="screen" />
+    <link href="css/animate.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+    <link rel="stylesheet" href="css/mousecursor.css" />
+    <link href="css/custom.css" rel="stylesheet" media="screen" />
+
+    <style>
+      /* ── Valcore brand overrides ── */
+      :root {
+        --primary-color: #0d1b2a;        /* deep navy */
+        --secondery-color: #F5F7F9;
+        --text-color: #1e2d3d;
+        --accent-color: #1a6fa8;         /* steel blue */
+        --white-color: #FFFFFF;
+        --divider-color: #dde6ef;
+        --dark-divider-color: #FFFFFF1A;
+      }
+
+      /* Hero tagline badge */
+      .hero-content .section-title h3 {
+        color: #1a6fa8;
+        text-transform: uppercase;
+        letter-spacing: 0.15em;
+      }
+
+      /* Accent on highlighted spans */
+      .section-title h2 span {
+        color: var(--accent-color);
+      }
+
+      /* How-we-work dark section accent */
+      .how-we-work .how-we-work-item h3 {
+        color: #f0a500;
+      }
+
+      /* Stat counters */
+      .experience-counter h3,
+      .feedback-counter p {
+        color: var(--accent-color);
+      }
+    </style>
+  </head>
+  <body>
+
+    <!-- Preloader -->
+    <div class="preloader valcore-preloader">
+      <div class="valcore-loader">
+        <div class="valcore-loader-ring"></div>
+        <img src="./images/valcore-logo.png" alt="Valcore Industries" class="valcore-loader-logo" />
+      </div>
+      <p class="valcore-loader-text">Building Better Business</p>
+    </div>
+    <!-- Preloader End -->
+
+    <!-- ── Header ── -->
+    <header class="main-header">
+      <div class="header-sticky">
+        <nav class="container">
+          <div class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="./">
+              <img src="./images/valcore-logo.png" alt="Valcore Industries" class="valcore-brand-logo" />
+            </a>
+
+            <div class="collapse navbar-collapse main-menu">
+              <div class="nav-menu-wrapper">
+                <ul class="navbar-nav mr-auto" id="menu">
+                  <li class="nav-item"><a class="nav-link" href="./">Home</a></li>
+                  <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                  <li class="nav-item submenu">
+                    <a class="nav-link" href="services.html">Services</a>
+                    <ul>
+                      <li class="nav-item"><a class="nav-link" href="service-single.html">Construction Management</a></li>
+                      <li class="nav-item"><a class="nav-link" href="service-single.html">Project Delegation</a></li>
+                      <li class="nav-item"><a class="nav-link" href="service-single.html">Business Consulting</a></li>
+                      <li class="nav-item"><a class="nav-link" href="service-single.html">Site Supervision</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                  <li class="nav-item submenu">
+                    <a class="nav-link" href="ourImages.html">Gallery</a>
+                    <ul>
+                      <li class="nav-item"><a class="nav-link" href="ourImages.html">Our Images</a></li>
+                      <li class="nav-item"><a class="nav-link" href="OurVideos.html">Our Videos</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item"><a class="nav-link" href="blog.html">Insights</a></li>
+                  <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                </ul>
+              </div>
+              <div class="lang-toggle" id="langToggle">
+                <span class="lang active" data-lang="en">EN</span>
+                <span class="lang" data-lang="ar">AR</span>
+                <div class="toggle-bg"></div>
+              </div>
+              <div id="themeToggle" class="theme-toggle">
+                <svg class="icon" viewBox="0 0 24 24">
+                  <path d="M21 12.8A9 9 0 0 1 11.2 3a7 7 0 1 0 9.8 9.8z"></path>
+                </svg>
+              </div>
+            </div>
+            <div class="navbar-toggle"></div>
+          </div>
+        </nav>
+        <div class="responsive-menu"></div>
+      </div>
+    </header>
+
+    <!-- ── Hero ── -->
+    <div class="hero hero-video hero1">
+      <div class="hero-bg-video hero1">
+        <video autoplay muted loop playsinline id="myVideo" poster="https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=1920&q=85">
+          <source src="https://videos.pexels.com/video-files/3209828/3209828-sd_640_360_30fps.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-10">
+            <div class="hero-content">
+              <div class="section-title">
+                <h3 class="wow fadeInUp">Building Better Business</h3>
+                <h1 class="text-anime-style-2" data-cursor="-opaque">
+                  Delivering Results Through Smarter Construction & Management
+                </h1>
+                <p class="wow fadeInUp" data-wow-delay="0.2s">
+                  Valcore Industries, Inc. brings expert business management and construction delegation services — founded in 2020, built on trust, precision, and results.
+                </p>
+              </div>
+              <div class="hero-btn wow fadeInUp" data-wow-delay="0.4s">
+                <a href="about.html" class="btn-default">discover valcore</a>
+                <a href="projects.html" class="btn-default btn-highlighted">view our projects</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── About Us ── -->
+    <div class="about-us page-about-us">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="about-us-images">
+              <div class="about-img-1">
+                <figure class="image-anime reveal">
+                  <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=900&q=85" alt="Valcore construction team at work" />
+                </figure>
+              </div>
+              <div class="about-img-2">
+                <figure class="image-anime reveal">
+                  <img src="./images/about-us-bg-shape.svg" alt="" />
+                </figure>
+                <div class="experience-counter">
+                  <h3><span class="counter">5</span>+</h3>
+                  <p>Years in Business</p>
+                </div>
+              </div>
+              <div class="feedback-counter">
+                <p><span class="counter">98</span>%</p>
+                <h3>Client Satisfaction</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="about-us-content">
+              <div class="section-title">
+                <h3 class="wow fadeInUp">about us</h3>
+                <h2 class="text-anime-style-2" data-cursor="-opaque">
+                  Expert management, your <span>project delivered</span>
+                </h2>
+                <p class="wow fadeInUp" data-wow-delay="0.2s">
+                  Founded in 2020, Valcore Industries, Inc. is a business consulting and construction delegation firm dedicated to turning complex projects into on-time, on-budget realities. Our team works closely with owners, contractors, and stakeholders to streamline every phase — from planning to closeout.
+                </p>
+              </div>
+              <div class="about-us-content-body">
+                <div class="about-us-content-info">
+                  <div class="about-us-content-list wow fadeInUp" data-wow-delay="0.4s">
+                    <ul>
+                      <li>results-driven approach</li>
+                      <li>transparent communication</li>
+                    </ul>
+                  </div>
+                  <div class="about-us-content-btn wow fadeInUp" data-wow-delay="0.6s">
+                    <a href="contact.html" class="btn-default">contact us</a>
+                  </div>
+                </div>
+                <div class="about-us-contact-list">
+                  <div class="about-contact-item wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="icon-box">
+                      <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <div class="about-contact-content">
+                      <p>need any help?</p>
+                      <h3>+1 (800) VALCORE</h3>
+                    </div>
+                  </div>
+                  <div class="about-contact-item wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="icon-box">
+                      <i class="fa-solid fa-building"></i>
+                    </div>
+                    <div class="about-contact-content">
+                      <h3>Valcore Industries</h3>
+                      <p>established 2020</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-12">
+            <div class="about-facility-list">
+              <div class="about-facility-item wow fadeInUp">
+                <div class="icon-box">
+                  <img src="images/icon-about-facility-1.svg" alt="" />
+                </div>
+                <div class="about-facility-content">
+                  <h3>Competitive Pricing</h3>
+                  <p>We deliver enterprise-level construction management at rates designed for growing businesses of all sizes.</p>
+                </div>
+              </div>
+              <div class="about-facility-item wow fadeInUp" data-wow-delay="0.2s">
+                <div class="icon-box">
+                  <img src="images/icon-about-facility-2.svg" alt="" />
+                </div>
+                <div class="about-facility-content">
+                  <h3>Strategic Delegation</h3>
+                  <p>Our proprietary delegation framework ensures the right people handle the right tasks — every time.</p>
+                </div>
+              </div>
+              <div class="about-facility-item wow fadeInUp" data-wow-delay="0.4s">
+                <div class="icon-box">
+                  <img src="images/icon-about-facility-2.svg" alt="" />
+                </div>
+                <div class="about-facility-content">
+                  <h3>Seasoned Professionals</h3>
+                  <p>Our consultants bring deep industry knowledge in construction, operations, and business growth.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── Our Services ── -->
+    <div class="our-services">
+      <div class="container">
+        <div class="row section-row align-items-center">
+          <div class="col-lg-6">
+            <div class="section-title">
+              <h3 class="wow fadeInUp">our services</h3>
+              <h2 class="text-anime-style-2" data-cursor="-opaque">
+                Comprehensive solutions for <span>every build</span>
+              </h2>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="section-title-content">
+              <p class="wow fadeInUp" data-wow-delay="0.2s">
+                From initial planning and contractor delegation to on-site supervision and final delivery — Valcore manages the complete lifecycle of your construction project.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="service-item wow fadeInUp">
+              <div class="service-image">
+                <a href="service-single.html" data-cursor-text="View">
+                  <figure class="image-anime">
+                    <img src="https://images.unsplash.com/photo-1590856029826-c7a73142bbf1?w=900&q=85" alt="Construction Management" />
+                  </figure>
+                </a>
+              </div>
+              <div class="service-btn">
+                <a href="service-single.html"><img src="images/arrow-white.svg" alt="" /></a>
+              </div>
+              <div class="service-content">
+                <h3><a href="service-single.html">Construction Management</a></h3>
+                <p>End-to-end oversight of your build — scheduling, budgeting, and quality control handled by experts.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="service-item wow fadeInUp" data-wow-delay="0.2s">
+              <div class="service-image">
+                <a href="service-single.html" data-cursor-text="View">
+                  <figure class="image-anime">
+                    <img src="https://images.unsplash.com/photo-1521791055366-0d553872952f?w=900&q=85" alt="Business Delegation" />
+                  </figure>
+                </a>
+              </div>
+              <div class="service-btn">
+                <a href="service-single.html"><img src="images/arrow-white.svg" alt="" /></a>
+              </div>
+              <div class="service-content">
+                <h3><a href="service-single.html">Business Delegation Services</a></h3>
+                <p>We connect the right contractors, vendors, and teams to your project — reducing risk and saving time.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="service-item wow fadeInUp" data-wow-delay="0.4s">
+              <div class="service-image">
+                <a href="service-single.html" data-cursor-text="View">
+                  <figure class="image-anime">
+                    <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=900&q=85" alt="Business Consulting" />
+                  </figure>
+                </a>
+              </div>
+              <div class="service-btn">
+                <a href="service-single.html"><img src="images/arrow-white.svg" alt="" /></a>
+              </div>
+              <div class="service-content">
+                <h3><a href="service-single.html">Business Consulting</a></h3>
+                <p>Strategic advisory for growing construction businesses — process improvement, scaling, and operations.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-12">
+            <div class="all-services-btn wow fadeInUp" data-wow-delay="0.6s">
+              <a href="services.html" class="btn-default">see all services</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── Intro Video ── -->
+    <div class="intro-video">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="intro-video-box">
+              <div class="intro-video-image">
+                <a href="https://www.youtube.com/watch?v=Y-x0efG1seA" class="popup-video" data-cursor-text="Play">
+                  <figure class="image-anime">
+                    <img src="https://images.unsplash.com/photo-1590534247854-e97d5e3feef6?w=1600&q=85" alt="Valcore Industries overview video" />
+                  </figure>
+                </a>
+              </div>
+              <div class="video-play-button">
+                <a href="https://www.youtube.com/watch?v=Y-x0efG1seA" class="popup-video" data-cursor-text="Play">play</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── Latest Projects ── -->
+    <div class="our-project">
+      <div class="container">
+        <div class="row section-row align-items-center">
+          <div class="col-lg-5">
+            <div class="section-title">
+              <h3 class="wow fadeInUp">latest projects</h3>
+              <h2 class="text-anime-style-2" data-cursor="-opaque">
+                Delivered projects that speak for <span>our work</span>
+              </h2>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <div class="section-title-content">
+              <p class="wow fadeInUp" data-wow-delay="0.2s">
+                Our portfolio spans commercial builds, institutional facilities, infrastructure projects, and managed renovations — each completed on schedule and within budget.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="our-Project-nav wow fadeInUp" data-wow-delay="0.4s">
+              <ul>
+                <li><a href="#" class="active-btn" data-filter="*">all</a></li>
+                <li><a href="#" data-filter=".architecture">commercial</a></li>
+                <li><a href="#" data-filter=".interior">renovation</a></li>
+                <li><a href="#" data-filter=".bedroom">residential</a></li>
+                <li><a href="#" data-filter=".furniture">infrastructure</a></li>
+                <li><a href="#" data-filter=".kitchen">industrial</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-12">
+            <div class="row project-item-boxes align-items-center">
+              <div class="col-md-6 project-item-box architecture bedroom">
+                <div class="project-item wow fadeInUp">
+                  <div class="project-image">
+                    <div class="project-featured-image">
+                      <figure class="image-anime"><img src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=1200&q=85" alt="" /></figure>
+                    </div>
+                    <div class="project-btn">
+                      <a href="project-single.html"><img src="images/arrow-white.svg" alt="" /></a>
+                    </div>
+                  </div>
+                  <div class="project-content">
+                    <h3>Commercial Build</h3>
+                    <h2><a href="project-single.html">Downtown Office Complex – Phase I</a></h2>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6 project-item-box interior kitchen">
+                <div class="project-item wow fadeInUp" data-wow-delay="0.2s">
+                  <div class="project-image">
+                    <div class="project-featured-image">
+                      <figure class="image-anime"><img src="https://images.unsplash.com/photo-1518005020951-eccb494ad742?w=1200&q=85&fm=webp" alt="" /></figure>
+                    </div>
+                    <div class="project-btn">
+                      <a href="project-single.html"><img src="images/arrow-white.svg" alt="" /></a>
+                    </div>
+                  </div>
+                  <div class="project-content">
+                    <h3>Renovation</h3>
+                    <h2><a href="project-single.html">Historic Warehouse Conversion</a></h2>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6 project-item-box furniture architecture">
+                <div class="project-item wow fadeInUp" data-wow-delay="0.4s">
+                  <div class="project-image">
+                    <div class="project-featured-image">
+                      <figure class="image-anime"><img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1200&q=85" alt="" /></figure>
+                    </div>
+                    <div class="project-btn">
+                      <a href="project-single.html"><img src="images/arrow-white.svg" alt="" /></a>
+                    </div>
+                  </div>
+                  <div class="project-content">
+                    <h3>Infrastructure</h3>
+                    <h2><a href="project-single.html">Multi-Site Utility Upgrade Program</a></h2>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6 project-item-box kitchen bedroom">
+                <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
+                  <div class="project-image">
+                    <div class="project-featured-image">
+                      <figure class="image-anime"><img src="https://images.unsplash.com/photo-1553174579-b1a8db6b9b01?w=1200&q=85&fm=webp" alt="" /></figure>
+                    </div>
+                    <div class="project-btn">
+                      <a href="project-single.html"><img src="images/arrow-white.svg" alt="" /></a>
+                    </div>
+                  </div>
+                  <div class="project-content">
+                    <h3>Industrial</h3>
+                    <h2><a href="project-single.html">Logistics Facility – Ground-Up Construction</a></h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── Why Choose Us / How We Work ── -->
+    <div class="how-we-work">
+      <div class="container">
+        <div class="row section-row align-items-center">
+          <div class="col-lg-6">
+            <div class="section-title dark-section">
+              <h3 class="wow fadeInUp">Why Choose Valcore?</h3>
+              <h2 class="text-anime-style-2" data-cursor="-opaque">
+                From concept to keys — <span>our process</span>
+              </h2>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="section-title-content dark-section">
+              <p class="wow fadeInUp" data-wow-delay="0.2s">
+                We don't just manage projects — we embed ourselves as your strategic partner, applying rigorous systems and clear accountability to every phase of construction and delegation.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="how-we-work-list">
+              <div class="how-we-work-item wow fadeInUp">
+                <div class="icon-box"><img src="images/icon-how-we-work-1.svg" alt="" /></div>
+                <div class="how-we-work-content">
+                  <h3>01. Discovery & Planning</h3>
+                  <p>We assess your project scope, goals, and constraints to build a tailored management strategy before a single tool is lifted.</p>
+                </div>
+              </div>
+              <div class="how-we-work-item wow fadeInUp" data-wow-delay="0.2s">
+                <div class="icon-box"><img src="images/icon-how-we-work-2.svg" alt="" /></div>
+                <div class="how-we-work-content">
+                  <h3>02. Contractor Delegation</h3>
+                  <p>Our network of vetted contractors is matched to your needs — right skills, right schedule, right price.</p>
+                </div>
+              </div>
+              <div class="how-we-work-item wow fadeInUp" data-wow-delay="0.4s">
+                <div class="icon-box"><img src="images/icon-how-we-work-3.svg" alt="" /></div>
+                <div class="how-we-work-content">
+                  <h3>03. Active Site Oversight</h3>
+                  <p>Real-time progress tracking, quality inspections, and proactive issue resolution keep projects on track.</p>
+                </div>
+              </div>
+              <div class="how-we-work-item wow fadeInUp" data-wow-delay="0.6s">
+                <div class="icon-box"><img src="images/icon-how-we-work-4.svg" alt="" /></div>
+                <div class="how-we-work-content">
+                  <h3>04. Completion & Handover</h3>
+                  <p>Final walkthroughs, punch-list management, and documentation ensure a seamless handover every time.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Partner industries -->
+            <div class="how-work-company-slider">
+              <div class="swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><div class="company-logo"><span style="font-weight:700;color:#fff;letter-spacing:0.05em;">COMMERCIAL</span></div></div>
+                  <div class="swiper-slide"><div class="company-logo"><span style="font-weight:700;color:#fff;letter-spacing:0.05em;">INDUSTRIAL</span></div></div>
+                  <div class="swiper-slide"><div class="company-logo"><span style="font-weight:700;color:#fff;letter-spacing:0.05em;">INFRASTRUCTURE</span></div></div>
+                  <div class="swiper-slide"><div class="company-logo"><span style="font-weight:700;color:#fff;letter-spacing:0.05em;">RESIDENTIAL</span></div></div>
+                  <div class="swiper-slide"><div class="company-logo"><span style="font-weight:700;color:#fff;letter-spacing:0.05em;">HEALTHCARE</span></div></div>
+                  <div class="swiper-slide"><div class="company-logo"><span style="font-weight:700;color:#fff;letter-spacing:0.05em;">RENOVATION</span></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── Insights / Blog ── -->
+    <div class="our-blog">
+      <div class="container">
+        <div class="row section-row align-items-center">
+          <div class="col-lg-6">
+            <div class="section-title">
+              <h3 class="wow fadeInUp">industry insights</h3>
+              <h2 class="text-anime-style-2" data-cursor="-opaque">
+                <span>Your guide to</span> smarter construction
+              </h2>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="section-title-content">
+              <p class="wow fadeInUp" data-wow-delay="0.2s">
+                Stay ahead with Valcore's insights on construction trends, delegation strategies, and business management best practices for contractors and owners.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="post-item wow fadeInUp">
+              <div class="post-featured-image">
+                <figure>
+                  <a href="blog-single.html" class="image-anime" data-cursor-text="View">
+                    <img src="https://images.unsplash.com/photo-1565008447742-97f6f38c985c?w=800&q=85" alt="" />
+                  </a>
+                </figure>
+              </div>
+              <div class="post-item-body">
+                <div class="post-item-content">
+                  <h3><a href="blog-single.html">How to Choose the Right General Contractor for Your Commercial Project</a></h3>
+                </div>
+                <div class="post-item-btn">
+                  <a href="blog-single.html" class="post-btn">read more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="post-item wow fadeInUp" data-wow-delay="0.2s">
+              <div class="post-featured-image">
+                <figure>
+                  <a href="blog-single.html" class="image-anime" data-cursor-text="View">
+                    <img src="https://images.unsplash.com/photo-1508450859948-4e04fabaa4ea?w=800&q=85&fm=webp" alt="" />
+                  </a>
+                </figure>
+              </div>
+              <div class="post-item-body">
+                <div class="post-item-content">
+                  <h3><a href="blog-single.html">5 Signs Your Construction Business Needs a Delegation Strategy</a></h3>
+                </div>
+                <div class="post-item-btn">
+                  <a href="blog-single.html" class="post-btn">read more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="post-item wow fadeInUp" data-wow-delay="0.4s">
+              <div class="post-featured-image">
+                <figure>
+                  <a href="blog-single.html" class="image-anime" data-cursor-text="View">
+                    <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=800&q=85" alt="" />
+                  </a>
+                </figure>
+              </div>
+              <div class="post-item-body">
+                <div class="post-item-content">
+                  <h3><a href="blog-single.html">Construction Cost Overruns: How to Prevent Them Before They Start</a></h3>
+                </div>
+                <div class="post-item-btn">
+                  <a href="blog-single.html" class="post-btn">read more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-12">
+            <div class="our-blog-footer wow fadeInUp" data-wow-delay="0.6s">
+              <a href="blog.html" class="btn-default">See All Insights</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── Contact ── -->
+    <div class="page-contact-us">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="contact-us-image">
+              <figure class="image-anime reveal">
+                <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=900&q=85" alt="Valcore team at work" />
+              </figure>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="contact-us-form">
+              <div class="section-title">
+                <h3 class="wow fadeInUp">get in touch</h3>
+                <h2 class="text-anime-style-2" data-cursor="-opaque">
+                  Let's build something <span>great together</span>
+                </h2>
+                <p class="wow fadeInUp" data-wow-delay="0.2s">
+                  Ready to delegate your next project or need strategic guidance? Reach out — our team responds within one business day.
+                </p>
+              </div>
+              <div class="contact-form">
+                <form id="contactForm" action="#" method="POST" data-toggle="validator" class="wow fadeInUp" data-wow-delay="0.4s">
+                  <div class="row">
+                    <div class="form-group col-md-6 mb-4">
+                      <input type="text" name="name" class="form-control" id="name" placeholder="Your Name*" required />
+                      <div class="help-block with-errors"></div>
+                    </div>
+                    <div class="form-group col-md-6 mb-4">
+                      <input type="email" name="email" class="form-control" id="email" placeholder="Email Address*" required />
+                      <div class="help-block with-errors"></div>
+                    </div>
+                    <div class="form-group col-md-12 mb-4">
+                      <input type="text" name="phone" class="form-control" id="phone" placeholder="Phone Number" required />
+                      <div class="help-block with-errors"></div>
+                    </div>
+                    <div class="form-group col-md-12 mb-5">
+                      <textarea name="message" class="form-control" id="message" rows="4" placeholder="Tell us about your project"></textarea>
+                      <div class="help-block with-errors"></div>
+                    </div>
+                    <div class="col-md-12">
+                      <button type="submit" class="btn-default">send message</button>
+                      <div id="msgSubmit" class="h3 hidden"></div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── Footer ── -->
+    <footer class="main-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="footer-header">
+              <div class="row align-items-center">
+                <div class="col-md-6">
+                  <div class="footer-logo">
+                    <img src="./images/valcore-logo.png" alt="Valcore Industries" class="valcore-brand-logo" />
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="footer-social-links">
+                    <div class="footer-social-link-title"><h3>follow us</h3></div>
+                    <ul>
+                      <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                      <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                      <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-links">
+              <h3>Quick Links</h3>
+              <ul>
+                <li><a href="./">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="blog.html">Insights</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-links">
+              <h3>Our Services</h3>
+              <ul>
+                <li><a href="service-single.html">Construction Management</a></li>
+                <li><a href="service-single.html">Business Delegation</a></li>
+                <li><a href="service-single.html">Project Planning</a></li>
+                <li><a href="service-single.html">Site Supervision</a></li>
+                <li><a href="service-single.html">Business Consulting</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-contact-box footer-links">
+              <h3>contact us</h3>
+              <div class="footer-contact-item">
+                <div class="icon-box"><i class="fa-solid fa-phone"></i></div>
+                <div class="footer-contact-content"><p>+1 (800) VALCORE</p></div>
+              </div>
+              <div class="footer-contact-item">
+                <div class="icon-box"><i class="fa-solid fa-envelope"></i></div>
+                <div class="footer-contact-content"><p>info@valcoreindustries.com</p></div>
+              </div>
+              <div class="footer-contact-item">
+                <div class="icon-box"><i class="fa-brands fa-linkedin-in"></i></div>
+                <div class="footer-contact-content"><p>linkedin.com/company/valcore</p></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-latest-news footer-links">
+              <h3>Stay Informed</h3>
+              <div class="footer-newsletter-form">
+                <p>Get construction insights and project updates delivered straight to your inbox.</p>
+                <form id="newslettersForm" action="#" method="POST">
+                  <div class="form-group">
+                    <input type="email" name="email" class="form-control" id="mail" placeholder="Enter your email" required />
+                    <button type="submit"><i class="fa-solid fa-arrow-right-long"></i></button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-copyright">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="footer-copyright-text">
+                <p>Copyright &copy; 2026 Valcore Industries, Inc. All Rights Reserved. | Founded 2020 | Building Better Business</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      window.addEventListener("scroll", function () {
+        let header = document.querySelector(".header-sticky");
+        if (window.scrollY > 50) {
+          header.classList.add("scrolled");
+        } else {
+          header.classList.remove("scrolled");
+        }
+      });
+    </script>
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/validator.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/isotope.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/SmoothScroll.js"></script>
+    <script src="js/parallaxie.js"></script>
+    <script src="js/gsap.min.js"></script>
+    <script src="js/magiccursor.js"></script>
+    <script src="js/SplitText.js"></script>
+    <script src="js/ScrollTrigger.min.js"></script>
+    <script src="js/jquery.mb.YTPlayer.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/function.js"></script>
+  </body>
+</html>
